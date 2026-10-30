@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="BioCord">
+  <title>BioCord</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script src="js/js.js" defer></script>
+</head>
+
+<body>
+  <!-- HEADER -->
+  <header class="header">
+    <div class="header_top center">
+      <p class="top_logo">
+        <a href="#">BioCord</a>
+      </p>
+
+      <nav class="top_menu">
+        <ul>
+          <li><a href="#">소개</a></li>
+          <li><a href="#">후원하기</a></li>
+          <li><a href="#">아동후원</a></li>
+          <li><a href="#">긴급구호</a></li>
+          <li><a href="#">스토리</a></li>
+          <li><a href="#">투명성</a></li>
+        </ul>
+      </nav>
+
+      <div class="header_actions">
+        <a href="#" class="login">로그인</a>
+        <a href="#" class="header_donate">후원하기</a>
+      </div>
+    </div>
+
+    <!-- HERO -->
+    <section class="hero">
+      <img src="img/header1.jpg" alt="아이들이 함께 웃고 있는 모습" class="hero_bg">
+      <div class="hero_overlay"></div>
+
+      <div class="hero_inner center">
+        <div class="hero_copy">
+          <h1>
+            우리의 작은 나눔이<br>
+            또 다른 생명을 살리는<br>
+            거대한 기적이 되도록.
+          </h1>
+          <p>
+            BioCord는 투명한 후원과 연결을 통해 한 아이의<br>
+            오늘을 바꾸고, 더 나은 내일을 만듭니다.
+          </p>
+          <div class="hero_buttons">
+            <a href="#" class="btn btn_primary">지금 후원하기</a>
+            <a href="#" class="btn btn_white">이야기 보기</a>
+          </div>
+        </div>
+
+        <div class="today_fund">
+          <span>오늘의 후원금</span>
+          <strong>₩ 22,582,000</strong>
+          <small>오늘도 따뜻한 마음이 연결되고 있습니다.</small>
+        </div>
+      </div>
+
+      <!-- 투명공개 -->
+      <section class="fund_summary">
+        <div class="summary_inner center">
+          <div class="section_label">
+            <span>LIVE</span>
+            <p>1원 단위 후원금 투명 공개</p>
+          </div>
+          <div class="summary_cards">
+            <article class="summary_card">
+              <span>📊 이번 달 후원금</span>
+              <strong>₩ 2,458,930,000</strong>
+              <small>전월 대비 +12.8%</small>
+            </article>
+            <article class="summary_card">
+              <span>🧒 지원 중인 아이</span>
+              <strong>1,244명</strong>
+              <small>의료 · 교육 · 생활 지원</small>
+            </article>
+            <article class="summary_card">
+              <span>💌 새로운 감사편지</span>
+              <strong>24건</strong>
+              <small>후원자에게 도착했어요</small>
+            </article>
+            <article class="summary_card">
+              <span>🔴 LIVE 오늘 후원</span>
+              <strong>183건</strong>
+              <small>지금 이 순간에도 연결 중</small>
+            </article>
+          </div>
+        </div>
+      </section>
+    </section>
+  </header>
+
+  <main class="main_content">
+    <!-- SUPPORT -->
+    <section class="support_section center">
+      <div class="section_heading">
+        <div class="heading_title">
+          <span class="section_kicker">WHO WE SUPPORT</span>
+          <h2>어떤 아이들을 후원할 수 있나요?</h2>
+        </div>
+        <a href="#" class="more_btn">더보기 <span>&gt;</span></a>
+      </div>
+
+      <div class="support_grid">
+        <a href="#" class="support_card">
+          <div class="image_placeholder">
+            <img src="img/support/1_1.jpg" alt="의료 지원 아이">
+          </div>
+          <div class="card_info">
+            <span>의료 지원</span>
+            <h3>치료가 필요한 아이</h3>
+            <p>건강한 내일을 위한 의료비를 지원합니다.</p>
+          </div>
+        </a>
+
+        <a href="#" class="support_card">
+          <div class="image_placeholder">
+            <img src="img/support/1_2.jpg" alt="교육 지원 아이">
+          </div>
+          <div class="card_info">
+            <span>교육 지원</span>
+            <h3>배움이 필요한 아이</h3>
+            <p>배움의 기회를 잃지 않도록 함께합니다.</p>
+          </div>
+        </a>
+
+        <a href="#" class="support_card">
+          <div class="image_placeholder">
+            <img src="img/support/1_3.jpg" alt="생계 지원 아이">
+          </div>
+          <div class="card_info">
+            <span>생계 지원</span>
+            <h3>일상이 필요한 아이</h3>
+            <p>안전하고 안정적인 생활을 돕습니다.</p>
+          </div>
+        </a>
+
+        <a href="#" class="support_card">
+          <div class="image_placeholder">
+            <img src="img/support/1_4.jpg" alt="긴급구호 지원 아이">
+          </div>
+          <div class="card_info">
+            <span>긴급구호 지원</span>
+            <h3>도움이 지금 필요한 아이</h3>
+            <p>위기의 순간 가장 먼저 손을 내밉니다.</p>
+          </div>
+        </a>
+
+        <a href="#" class="support_card">
+          <div class="image_placeholder">
+            <img src="img/support/1_5.jpg" alt="보호시설 지원 아이">
+          </div>
+          <div class="card_info">
+            <span>보호시설 지원</span>
+            <h3>안전한 공간이 필요한 아이</h3>
+            <p>아이들이 편히 쉴 수 있는 환경을 만듭니다.</p>
+          </div>
+        </a>
+
+        <a href="#" class="support_card">
+          <div class="image_placeholder">
+            <img src="img/support/1_6.jpg" alt="심리치료 지원 아이">
+          </div>
+          <div class="card_info">
+            <span>심리치료 지원</span>
+            <h3>마음의 회복이 필요한 아이</h3>
+            <p>상처받은 마음에도 다시 봄이 오도록 돕습니다.</p>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- STORY -->
+    <section class="story_section">
+      <div class="story_bg"></div>
+      <div class="story_overlay"></div>
+
+      <div class="story_heading center">
+        <span class="section_kicker">CHANGE STORY</span>
+        <h2>아이들의 변화 스토리</h2>
+        <p>
+          한 아이의 삶에 시작된 작은 변화가<br>
+          후원으로 이어진 지원과 만남을 통해 새로운 일상으로 이어집니다.
+        </p>
+      </div>
+
+      <div class="story_content center">
+        <div class="story_steps">
+          <article class="story_step">
+            <div class="story_image ">
+              <img src="img/story/2_1.jpg" alt="후원 전">
+            </div>
+            <span>01</span>
+            <strong>후원 전</strong>
+            <p>도움이 필요했던 순간</p>
+          </article>
+          <article class="story_step">
+            <div class="story_image ">
+              <img src="img/story/2_2.jpg" alt="후원 시작">
+            </div>
+            <span>02</span>
+            <strong>후원 시작</strong>
+            <p>따뜻한 연결이 시작됩니다</p>
+          </article>
+          <article class="story_step">
+            <div class="story_image ">
+              <img src="img/story/2_3.jpg" alt="치료와 지원">
+            </div>
+            <span>03</span>
+            <strong>치료와 지원</strong>
+            <p>필요한 도움을 이어갑니다</p>
+          </article>
+          <article class="story_step">
+            <div class="story_image ">
+              <img src="img/story/2_4.jpg" alt="회복과 일상">
+            </div>
+            <span>04</span>
+            <strong>회복과 일상</strong>
+            <p>다시 꿈꾸는 내일</p>
+          </article>
+        </div>
+
+        <div class="story_controls">
+          <button type="button" class="story_arrow story_prev" aria-label="이전">←</button>
+          <button type="button" class="story_arrow story_next" aria-label="다음">→</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- TODAY'S MISSION -->
+    <section class="mission_section center">
+      <div class="section_heading">
+        <div class="heading_title">
+          <span class="section_kicker">TODAY'S MISSION</span>
+          <h2>오늘의 미션</h2>
+        </div>
+      </div>
+
+      <div class="mission_wrap">
+        <div class="mission_list">
+          <button type="button" class="mission_item">
+            <div class="mission_icon_box">
+              <img src="img/mission/m_1.jpg" alt="출석체크">
+            </div>
+            <strong>출석체크</strong>
+            <small>+10P</small>
+          </button>
+
+          <button type="button" class="mission_item">
+            <div class="mission_icon_box">
+              <img src="img/mission/m_2.jpg" alt="친구 초대">
+            </div>
+            <strong>친구 초대</strong>
+            <small>+100P</small>
+          </button>
+
+          <button type="button" class="mission_item">
+            <div class="mission_icon_box">
+              <img src="img/mission/m_3.jpg" alt="후원공유">
+            </div>
+            <strong>후원공유</strong>
+            <small>+50P</small>
+          </button>
+
+          <button type="button" class="mission_item">
+            <div class="mission_icon_box">
+              <img src="img/mission/m_4.jpg" alt="댓글응원">
+            </div>
+            <strong>댓글응원</strong>
+            <small>+10P</small>
+          </button>
+        </div>
+
+        <div class="mission_progress">
+          <div class="progress_text">
+            100포인트 달성 시,<br>아이들에게 급식 1끼를 제공합니다.
+          </div>
+          <div class="progress_bar_wrap">
+            <div class="progress_bar">
+              <span id="missionBar" style="width: 75%;"></span>
+            </div>
+            <div class="progress_score">
+              <b id="missionScore">75</b>/100
+            </div>
+          </div>
+        </div>
+
+        <div class="mission_reward">
+          <img src="img/mission/GIFT BOX.png" alt="선물상자">
+        </div>
+      </div>
+    </section>
+
+    <!-- LATEST NEWS -->
+    <section class="news_section center">
+      <div class="section_heading">
+        <div class="heading_title">
+          <span class="section_kicker">LATEST NEWS</span>
+          <h2>최신소식</h2>
+        </div>
+        <a href="#" class="more_btn">더보기 <span>&gt;</span></a>
+      </div>
+
+      <div class="swiper news_slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <a href="#" class="news_card">
+              <div class="news_image">
+                <img src="img/news/3_1.jpg" alt="유준이가 학교에 입학했어요!">
+                <span class="news_tag">스토리</span>
+              </div>
+              <h3>유준이가 학교에 입학했어요!</h3>
+              <time datetime="2026-01-12">2026.01.12</time>
+            </a>
+          </div>
+
+          <div class="swiper-slide">
+            <a href="#" class="news_card">
+              <div class="news_image">
+                <img src="img/news/3_2.jpg" alt="5월 후원금 활동내역 공개!">
+                <span class="news_tag">소식</span>
+              </div>
+              <h3>5월 후원금 활동내역 공개!</h3>
+              <time datetime="2026-03-24">2026.03.24</time>
+            </a>
+          </div>
+
+          <div class="swiper-slide">
+            <a href="#" class="news_card">
+              <div class="news_image">
+                <img src="img/news/3_3.jpg" alt="긴급 구호 캠페인 시작!">
+                <span class="news_tag">캠페인</span>
+              </div>
+              <h3>긴급 구호 캠페인 시작!</h3>
+              <time datetime="2026-05-10">2026.05.10</time>
+            </a>
+          </div>
+
+          <div class="swiper-slide">
+            <a href="#" class="news_card">
+              <div class="news_image">
+                <img src="img/news/3_4.jpg" alt="외부감사 보고서 업로드">
+                <span class="news_tag">공지</span>
+              </div>
+              <h3>외부감사 보고서 업로드</h3>
+              <time datetime="2026-01-20">2026.01.20</time>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="center footer_inner">
+      <div class="footer_brand">
+        <a href="#" class="footer_logo">BioCord</a>
+        <p>
+          우리의 작은 나눔이<br>
+          또 다른 생명을 살리는<br>
+          거대한 기적이 되도록.
+        </p>
+
+        <div class="socials">
+          <a href="#" aria-label="Instagram"><img src="img/footer/mdi_instagram.png" alt="인스타그램"></a>
+          <a href="#" aria-label="Facebook"><img src="img/footer/ic_baseline-facebook.png" alt="페이스북"></a>
+          <a href="#" aria-label="YouTube"><img src="img/footer/mdi_youtube.png" alt="유튜브"></a>
+        </div>
+      </div>
+
+      <div class="footer_column">
+        <h3>서비스</h3>
+        <a href="#">소개</a>
+        <a href="#">후원하기</a>
+        <a href="#">긴급구호</a>
+        <a href="#">스토리</a>
+      </div>
+
+      <div class="footer_column">
+        <h3>투명성</h3>
+        <a href="#">후원금 사용현황</a>
+        <a href="#">외부감사 보고서</a>
+        <a href="#">함께하는 기록</a>
+        <a href="#">1원 단위 공개</a>
+      </div>
+
+      <div class="footer_column">
+        <h3>고객센터</h3>
+        <a href="#">FAQ</a>
+        <a href="#">문의하기</a>
+        <a href="#">이용약관</a>
+        <a href="#">개인정보처리방침</a>
+      </div>
+
+      <div class="footer_column contact">
+        <h3>문의</h3>
+        <a href="tel:02-0123-4567">02-0123-4567</a>
+        <a href="mailto:biocord@gmail.com">Biocord@gmail.com</a>
+        <p>평일 09:00 - 18:00</p>
+      </div>
+
+      <div class="qr_placeholder">
+        <img src="img/footer/Component 17.png" alt="QR코드">
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
